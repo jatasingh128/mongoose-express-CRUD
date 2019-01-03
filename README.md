@@ -1,19 +1,21 @@
-# Node.js mongoose express CRUD
-Node.js CRUD application based on the MongoDB database design and Express.js framework
+# Node.js Loginapp
 
-This Node.js CRUD code use 
-- Express.js framework
-- mongoose ORM
-```
-npm install --save express mongoose body-parser
+This is a user login and registration app using Node.js, Express, Passport and Mongoose.
+
+### Version
+1.1.0
+
+### Usage
+
+
+### Installation
+
+Loginapp requires [Node.js](https://nodejs.org/) v4+ to run.
+
+```sh
+$ npm install
 ```
 
-### Note:
-
-Create collection name 'books' on 'example' database at MongoDB
-```
-use example
-```
-```
-db.createCollection("books")
+```sh
+$ npm start
 ```
